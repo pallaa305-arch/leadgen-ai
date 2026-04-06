@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "AIAgentConfig": {
+      "title": "AI Agent Configuration",
+      "description": "Customization settings for AI chatbots and voice agents.",
+      "type": "object",
+      "properties": {
+        "personality": { "type": "string", "description": "The personality and instructions for the agent." },
+        "responseStyle": { "type": "string", "enum": ["Professional", "Friendly", "Casual", "Humorous"] },
+        "language": { "type": "string" },
+        "chatbotName": { "type": "string" },
+        "voiceName": { "type": "string", "enum": ["Puck", "Charon", "Kore", "Fenrir", "Zephyr"] }
+      },
+      "required": ["personality", "responseStyle", "language", "chatbotName", "voiceName"]
+    },
+    "Lead": {
+      "title": "Lead",
+      "description": "A potential business client discovered via search.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "address": { "type": "string" },
+        "phone": { "type": "string" },
+        "hasWebsite": { "type": "boolean" },
+        "placeUri": { "type": "string" },
+        "status": { "type": "string", "enum": ["DISCOVERED", "EMAILED", "RESPONDED", "CALL_COMPLETED", "PREVIEW_READY", "DELIVERED"] },
+        "businessType": { "type": "string" },
+        "emailDraft": { "type": "string" },
+        "callTranscript": { "type": "string" },
+        "callSummary": { "type": "string" },
+        "requiresAIAgent": { "type": "boolean" },
+        "aiAgentType": { "type": "string", "enum": ["Chatbot", "Voice Agent", "Both", "None"] },
+        "aiAgentConfig": { "$ref": "AIAgentConfig" },
+        "websiteCode": { "type": "string" },
+        "aiAgentSnippet": { "type": "string" },
+        "paymentAmount": { "type": "number" },
+        "paymentMethod": { "type": "string", "enum": ["PayPal", "Card", "Online"] },
+        "transactionId": { "type": "string" },
+        "invoiceEmail": { "type": "string" },
+        "followUpEmail": { "type": "string" },
+        "scheduledCall": { "type": "string" },
+        "followUpCallSummary": { "type": "string" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "name", "status"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}/leads/{leadId}": {
+      "schema": "Lead",
+      "description": "Collection of leads managed by a specific user."
+    },
+    "/users/{userId}/config/aiAgent": {
+      "schema": "AIAgentConfig",
+      "description": "Global AI agent configuration for a specific user."
+    }
+  }
+}

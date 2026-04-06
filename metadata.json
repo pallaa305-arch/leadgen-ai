@@ -1,0 +1,5 @@
+{
+  "name": "LeadGen AI",
+  "description": "AI assistant that identifies local businesses on Google Maps, filters those without a website, and generates personalized outreach emails for web development services.",
+  "requestFramePermissions": ["microphone"]
+}

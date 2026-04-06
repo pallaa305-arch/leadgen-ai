@@ -1,0 +1,7 @@
+- generic [ref=e4]:
+  - img [ref=e6]
+  - heading "Welcome to LeadGen AI" [level=2] [ref=e9]
+  - paragraph [ref=e10]: Sign in with your Google account to access your lead generation dashboard.
+  - button "Sign in with Google" [ref=e11]:
+    - img [ref=e12]
+    - text: Sign in with Google

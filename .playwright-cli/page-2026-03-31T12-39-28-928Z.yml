@@ -1,0 +1,119 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - img "Google" [ref=e10]
+      - generic [ref=e11]: Sign in with Google
+    - generic [ref=e12]:
+      - generic [ref=e14]:
+        - heading "Sign in" [level=1] [ref=e15]
+        - paragraph [ref=e16]:
+          - text: to continue to
+          - button "d-ai-web-devloper.firebaseapp.com" [ref=e17] [cursor=pointer]
+      - generic [ref=e18]:
+        - generic [ref=e21]:
+          - generic [ref=e26]:
+            - textbox "Email or phone" [active] [ref=e27]
+            - generic:
+              - generic: Email or phone
+          - paragraph [ref=e28]:
+            - link "Forgot email?" [ref=e29] [cursor=pointer]:
+              - /url: /signin/v2/usernamerecovery?app_domain=https://d-ai-web-devloper.firebaseapp.com&client_id=635650719350-r2f85rd80349o23cgus235ibk6n098hg.apps.googleusercontent.com&continue=https://accounts.google.com/signin/oauth/legacy/consent?authuser%3Dunknown%26part%3DAJi8hAM9IThzdM8K4Ugo2g5-Q9Cimwa0jidtEBsLy2pPgZrY7XQgqpe3Y4KSylY34lu0Ebqvy42O647KLlphXyf6XK_JUhBcKIixQ5G3gYrqEnRXHFoAsB07_3zTv5GhsGTMevxqA072oWvnaDAQ3Ft7zck2fq5BQr9HFFSQY2KcZMH5Y_uHukeJ89RgYoler2o2TuLp8_8J2LBOSkR27mEBNNgqMoR1aImi0_ff7k9KPD10PBe0H-O0F3arH70F0dc8T6F8hoPhvnAiZiqYYtLnozXE_owZLPLg9WwnNeNe4_l2b7L1QCKQ98rXui8Tyu0R_kOnCpqM7G3lLyw1WeCpvswD4mxI4DgJI_ls2EaKJMDgutDP6gxUo6E-He3cL1DMmItGmzGtBK323QQo-LAlt4ZW7t691aLuNtHkG58t0_tACaor46xLAFK3kha7T77BdhMVOvCjekcm9tIac8p_XyDIVMPO6X1I_pMe64B3IN4BQnBFX8I%26flowName%3DGeneralOAuthFlow%26as%3DS-384939504%253A1774960726309476%26client_id%3D635650719350-r2f85rd80349o23cgus235ibk6n098hg.apps.googleusercontent.com%23&dsh=S-384939504:1774960726309476&flowName=GeneralOAuthLite&o2v=1&opparams=%253Fcontext_uri%253Dhttp%25253A%25252F%25252Flocalhost%25253A3000&rart=ANgoxcciAgAbi1YnJc0D_z6RV-DuLIyhG6MS3FB5N2-Fs0yLFxlqu7GmQJhfgI0Y13dyR3dc2oC7pjXgQE56woqyUN4k6PdH42FeelvpKeMH3DlUzNlGVkY&redirect_uri=https://d-ai-web-devloper.firebaseapp.com/__/auth/handler&response_type=code&scope=openid+https://www.googleapis.com/auth/userinfo.email+profile&service=lso&state=AMbdmDm20XRRR01iOG-77OnVilr_l7e-itOcz2bHXX9HfLgdQO3ypoOkcjhsUwQWak25-5t6vO_0SmIaabdhXFPy1Ydtyf4r5yfyHGirnpUKrWYCDevjcBJiqqtm5EbRWSCnWRdt6p-rBXVw4P6y9EK4rwHzQju5LunqEkavL6jWGwo791SXrdz1_ZPYBHJeUCB8fp1rftJ_hdHrTCuj9eTYZZkLRFqKmSHLuqT8HP-MZXxGq3imtVuo8lQhYoeeWi1Pszt6kSc4UxYTzaVwWqDwDDaamLVWsF35byXOM-zeWSx-Po5C5rfx6UVz_jzq3m0Nah5YbZ6k0zyY
+        - generic [ref=e31]:
+          - button "Next" [ref=e33]
+          - link "Create account" [ref=e35] [cursor=pointer]:
+            - /url: /lifecycle/flows/signup?app_domain=https://d-ai-web-devloper.firebaseapp.com&client_id=635650719350-r2f85rd80349o23cgus235ibk6n098hg.apps.googleusercontent.com&continue=https://accounts.google.com/signin/oauth/legacy/consent?authuser%3Dunknown%26part%3DAJi8hAM9IThzdM8K4Ugo2g5-Q9Cimwa0jidtEBsLy2pPgZrY7XQgqpe3Y4KSylY34lu0Ebqvy42O647KLlphXyf6XK_JUhBcKIixQ5G3gYrqEnRXHFoAsB07_3zTv5GhsGTMevxqA072oWvnaDAQ3Ft7zck2fq5BQr9HFFSQY2KcZMH5Y_uHukeJ89RgYoler2o2TuLp8_8J2LBOSkR27mEBNNgqMoR1aImi0_ff7k9KPD10PBe0H-O0F3arH70F0dc8T6F8hoPhvnAiZiqYYtLnozXE_owZLPLg9WwnNeNe4_l2b7L1QCKQ98rXui8Tyu0R_kOnCpqM7G3lLyw1WeCpvswD4mxI4DgJI_ls2EaKJMDgutDP6gxUo6E-He3cL1DMmItGmzGtBK323QQo-LAlt4ZW7t691aLuNtHkG58t0_tACaor46xLAFK3kha7T77BdhMVOvCjekcm9tIac8p_XyDIVMPO6X1I_pMe64B3IN4BQnBFX8I%26flowName%3DGeneralOAuthFlow%26as%3DS-384939504%253A1774960726309476%26client_id%3D635650719350-r2f85rd80349o23cgus235ibk6n098hg.apps.googleusercontent.com%23&dsh=S-384939504:1774960726309476&flowEntry=SignUp&flowName=GlifWebSignIn&o2v=1&opparams=%253Fcontext_uri%253Dhttp%25253A%25252F%25252Flocalhost%25253A3000&rart=ANgoxcciAgAbi1YnJc0D_z6RV-DuLIyhG6MS3FB5N2-Fs0yLFxlqu7GmQJhfgI0Y13dyR3dc2oC7pjXgQE56woqyUN4k6PdH42FeelvpKeMH3DlUzNlGVkY&redirect_uri=https://d-ai-web-devloper.firebaseapp.com/__/auth/handler&response_type=code&scope=openid+https://www.googleapis.com/auth/userinfo.email+profile&service=lso&signInUrl=https://accounts.google.com/signin/oauth?app_domain%3Dhttps://d-ai-web-devloper.firebaseapp.com%26client_id%3D635650719350-r2f85rd80349o23cgus235ibk6n098hg.apps.googleusercontent.com%26continue%3Dhttps://accounts.google.com/signin/oauth/legacy/consent?authuser%253Dunknown%2526part%253DAJi8hAM9IThzdM8K4Ugo2g5-Q9Cimwa0jidtEBsLy2pPgZrY7XQgqpe3Y4KSylY34lu0Ebqvy42O647KLlphXyf6XK_JUhBcKIixQ5G3gYrqEnRXHFoAsB07_3zTv5GhsGTMevxqA072oWvnaDAQ3Ft7zck2fq5BQr9HFFSQY2KcZMH5Y_uHukeJ89RgYoler2o2TuLp8_8J2LBOSkR27mEBNNgqMoR1aImi0_ff7k9KPD10PBe0H-O0F3arH70F0dc8T6F8hoPhvnAiZiqYYtLnozXE_owZLPLg9WwnNeNe4_l2b7L1QCKQ98rXui8Tyu0R_kOnCpqM7G3lLyw1WeCpvswD4mxI4DgJI_ls2EaKJMDgutDP6gxUo6E-He3cL1DMmItGmzGtBK323QQo-LAlt4ZW7t691aLuNtHkG58t0_tACaor46xLAFK3kha7T77BdhMVOvCjekcm9tIac8p_XyDIVMPO6X1I_pMe64B3IN4BQnBFX8I%2526flowName%253DGeneralOAuthFlow%2526as%253DS-384939504%25253A1774960726309476%2526client_id%253D635650719350-r2f85rd80349o23cgus235ibk6n098hg.apps.googleusercontent.com%2523%26dsh%3DS-384939504:1774960726309476%26flowName%3DGeneralOAuthLite%26o2v%3D1%26opparams%3D%25253Fcontext_uri%25253Dhttp%2525253A%2525252F%2525252Flocalhost%2525253A3000%26rart%3DANgoxcciAgAbi1YnJc0D_z6RV-DuLIyhG6MS3FB5N2-Fs0yLFxlqu7GmQJhfgI0Y13dyR3dc2oC7pjXgQE56woqyUN4k6PdH42FeelvpKeMH3DlUzNlGVkY%26redirect_uri%3Dhttps://d-ai-web-devloper.firebaseapp.com/__/auth/handler%26response_type%3Dcode%26scope%3Dopenid%2Bhttps://www.googleapis.com/auth/userinfo.email%2Bprofile%26service%3Dlso%26state%3DAMbdmDm20XRRR01iOG-77OnVilr_l7e-itOcz2bHXX9HfLgdQO3ypoOkcjhsUwQWak25-5t6vO_0SmIaabdhXFPy1Ydtyf4r5yfyHGirnpUKrWYCDevjcBJiqqtm5EbRWSCnWRdt6p-rBXVw4P6y9EK4rwHzQju5LunqEkavL6jWGwo791SXrdz1_ZPYBHJeUCB8fp1rftJ_hdHrTCuj9eTYZZkLRFqKmSHLuqT8HP-MZXxGq3imtVuo8lQhYoeeWi1Pszt6kSc4UxYTzaVwWqDwDDaamLVWsF35byXOM-zeWSx-Po5C5rfx6UVz_jzq3m0Nah5YbZ6k0zyY&state=AMbdmDm20XRRR01iOG-77OnVilr_l7e-itOcz2bHXX9HfLgdQO3ypoOkcjhsUwQWak25-5t6vO_0SmIaabdhXFPy1Ydtyf4r5yfyHGirnpUKrWYCDevjcBJiqqtm5EbRWSCnWRdt6p-rBXVw4P6y9EK4rwHzQju5LunqEkavL6jWGwo791SXrdz1_ZPYBHJeUCB8fp1rftJ_hdHrTCuj9eTYZZkLRFqKmSHLuqT8HP-MZXxGq3imtVuo8lQhYoeeWi1Pszt6kSc4UxYTzaVwWqDwDDaamLVWsF35byXOM-zeWSx-Po5C5rfx6UVz_jzq3m0Nah5YbZ6k0zyY
+  - contentinfo [ref=e37]:
+    - combobox [ref=e40] [cursor=pointer]:
+      - option "Afrikaans"
+      - option "azərbaycan"
+      - option "bosanski"
+      - option "català"
+      - option "Čeština"
+      - option "Cymraeg"
+      - option "Dansk"
+      - option "Deutsch"
+      - option "eesti"
+      - option "English (United Kingdom)"
+      - option "English (United States)" [selected]
+      - option "Español (España)"
+      - option "Español (Latinoamérica)"
+      - option "euskara"
+      - option "Filipino"
+      - option "Français (Canada)"
+      - option "Français (France)"
+      - option "Gaeilge"
+      - option "galego"
+      - option "Hrvatski"
+      - option "Indonesia"
+      - option "isiZulu"
+      - option "íslenska"
+      - option "Italiano"
+      - option "Kiswahili"
+      - option "latviešu"
+      - option "lietuvių"
+      - option "magyar"
+      - option "Melayu"
+      - option "Nederlands"
+      - option "norsk"
+      - option "o‘zbek"
+      - option "polski"
+      - option "Português (Brasil)"
+      - option "Português (Portugal)"
+      - option "română"
+      - option "shqip"
+      - option "Slovenčina"
+      - option "slovenščina"
+      - option "srpski (latinica)"
+      - option "Suomi"
+      - option "Svenska"
+      - option "Tiếng Việt"
+      - option "Türkçe"
+      - option "Ελληνικά"
+      - option "беларуская"
+      - option "български"
+      - option "кыргызча"
+      - option "қазақ тілі"
+      - option "македонски"
+      - option "монгол"
+      - option "Русский"
+      - option "српски (ћирилица)"
+      - option "Українська"
+      - option "ქართული"
+      - option "հայերեն"
+      - option "‫עברית‬‎"
+      - option "‫اردو‬‎"
+      - option "‫العربية‬‎"
+      - option "‫فارسی‬‎"
+      - option "አማርኛ"
+      - option "नेपाली"
+      - option "मराठी"
+      - option "हिन्दी"
+      - option "অসমীয়া"
+      - option "বাংলা"
+      - option "ਪੰਜਾਬੀ"
+      - option "ગુજરાતી"
+      - option "ଓଡ଼ିଆ"
+      - option "தமிழ்"
+      - option "తెలుగు"
+      - option "ಕನ್ನಡ"
+      - option "മലയാളം"
+      - option "සිංහල"
+      - option "ไทย"
+      - option "ລາວ"
+      - option "မြန်မာ"
+      - option "ខ្មែរ"
+      - option "한국어"
+      - option "中文（香港）"
+      - option "日本語"
+      - option "简体中文"
+      - option "繁體中文"
+    - list [ref=e41]:
+      - listitem [ref=e42]:
+        - link "Help" [ref=e43] [cursor=pointer]:
+          - /url: https://support.google.com/accounts?hl=en-US&p=account_iph
+      - listitem [ref=e44]:
+        - link "Privacy" [ref=e45] [cursor=pointer]:
+          - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US&privacy=true
+      - listitem [ref=e46]:
+        - link "Terms" [ref=e47] [cursor=pointer]:
+          - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US
